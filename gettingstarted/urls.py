@@ -15,5 +15,7 @@ urlpatterns = [
     url(r'^$', hartmanhome.views.index, name='index'),
     url(r'^db', hello.views.db, name='db'),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^polls/', include('polls.urls'))
+    url(r'^polls/', include('polls.urls')),
+    url(r'^hartmanhome/', include('hartmanhome.urls'))
+
 ]
