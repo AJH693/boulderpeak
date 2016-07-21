@@ -17,5 +17,4 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^polls/', include('polls.urls')),
     url(r'^hartmanhome/', include('hartmanhome.urls'))
-
 ]
