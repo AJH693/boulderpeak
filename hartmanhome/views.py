@@ -8,3 +8,8 @@ def index(request):
 
 def about_me(request):
 	return render(request, 'about_me.html')
+
+
+def count(number):
+	nu
+	return number + 1
